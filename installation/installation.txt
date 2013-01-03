@@ -1,0 +1,23 @@
+A) Install OpenGL
+You need not do anything for this step; OpenGL v1.1 software runtime is already included as part of the operating system for Windows 7, WinXP, Windows 2000, Windows 98, Windows 95 (OSR2) and Windows NT.
+ 
+B) Install GLUT:
+The first step is to download GLUT. The necessary files are included in glut-3.7.6-bin.zip, or at the following URL:
+ 
+http://www.xmission.com/~nate/glut/glut-3.7.6-bin.zip
+ 
+C) Copy the libraries and header files into their proper locations.
+ 
+If you are running a 64-bit operating system (XP 64, Vista 64, or Windows 7 64):
+ 
+1. Copy glut32.dll into "c:\Windows\SysWOW64"
+2. Copy glut.h into "c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Include\gl\"
+3. Copy glut32.lib into "c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Lib\"
+ 
+If you are running a 32-bit operating system:
+ 
+1. Copy glut32.dll into c:\Windows\System
+2. Copy glut.h into "c:\Program Files\Microsoft SDKs\Windows\v7.0A\Include\gl\"
+3. Copy glut32.lib into "c:\Program Files\Microsoft SDKs\Windows\v7.0A\Lib"
+ 
+D) Run the game by running \Katamari\Katamari.exe
