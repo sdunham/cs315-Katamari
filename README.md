@@ -35,26 +35,36 @@ This game was developed and tested on a Windows PC. Other platforms are not guar
 ##Installing & Playing the Game
 1. **Install OpenGL**
 You need not do anything for this step; OpenGL v1.1 software runtime is already included as part of the operating system for Windows 7, WinXP, Windows 2000, Windows 98, Windows 95 (OSR2) and Windows NT.
+
 2. **Install GLUT**
 The first step is to download GLUT. The necessary files are included in `installation/glut-3.7.6-bin.zip` or at the following URL:
 http://www.xmission.com/~nate/glut/glut-3.7.6-bin.zip
+
 3. **Copy the libraries and header files into their proper locations.**
+
 *If you are running a 64-bit operating system (XP 64, Vista 64, or Windows 7 64):*
 * Copy glut32.dll into "c:\Windows\SysWOW64"
 * Copy glut.h into "c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Include\gl\"
 * Copy glut32.lib into "c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Lib\"
+
 *If you are running a 32-bit operating system:*
 * Copy glut32.dll into c:\Windows\System
 * Copy glut.h into "c:\Program Files\Microsoft SDKs\Windows\v7.0A\Include\gl\"
 * Copy glut32.lib into "c:\Program Files\Microsoft SDKs\Windows\v7.0A\Lib"
+
 4. **Run the game by running `\Katamari\Katamari.exe`**
 
 ##ONLINE RESOURCES CONSULTED
 Texture-Mapped Meshes: http://nehe.gamedev.net/tutorial/model_loading/16004/
+
 Simple Sphere-Sphere Collision Detection: http://www.swiftless.com/tutorials/opengl/collision.html
+
 http://www.opengl.org/sdk/docs/tutorials/ClockworkCoders/lighting.php
+
 http://www.opengl.org/registry/doc/GLSLangSpec.Full.1.20.8.pdf
+
 http://www.opengl.org/resources/libraries/glut/spec3/node54.html  - helped with implementing special keys
+
 http://nehe.gamedev.net/tutorial/cool_looking_fog/19001/ - helped with fog
 
 ##CREATED BY
